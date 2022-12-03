@@ -1,8 +1,7 @@
 export default function modeNight(btn, classDark) {
   const d = document;
   const $themeBtn = d.querySelector(btn),
-    $contenido = d.querySelectorAll("[data-dark]"),
-    $calculator = d.querySelector(".calculator");
+    $contenido = d.querySelectorAll("[data-dark]");
   let ls = localStorage;
   let mood = "🌙",
     sun = "☀️";
